@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="assets/css/fme.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+    <script src="assets/js/filter.min.js" type="text/javascript"></script>
+    <script src="data/fme-courses.js" type="text/javascript"></script>
+    <script src="fme.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">FME Education Course Database</h1>
+      <div class="sidebar col-md-3">
+        <div>
+          <h4 class='col-md-6'>Courses (<span id="total_courses">0</span>)</h4>
+        </div>
+        <div>
+          <label class="sr-only" for="searchbox">Search</label>
+          <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;" autocomplete="off">
+          <span class="glyphicon glyphicon-search search-icon"></span>
+        </div>
+        <br>
+        <div class="well">
+            <fieldset id="year_level_criteria">
+                <legend>Year/Level</legend>
+                <select class="form-control" id="year_level_filter">
+                    <option value="all">All</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="MSc">MSc</option>
+                    <option value="PhD">PhD</option>
+                    <option value="Unknown">Unknown</option>
+                </select>
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="topics_criteria">
+                <legend>Topics</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_topics">
+                    <span>All</span>
+                  </label>
+                </div>
+
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="ADT">
+    <span>ADT</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Abstract Interpretation">
+    <span>Abstract Interpretation</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Abstract State Machines">
+    <span>Abstract State Machines</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Action Semantics">
+    <span>Action Semantics</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Algebra of Programming">
+    <span>Algebra of Programming</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Algebraic Semantics">
+    <span>Algebraic Semantics</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Algorithm refinement">
+    <span>Algorithm refinement</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Algorithms and Complexity">
+    <span>Algorithms and Complexity</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Automated theorem proving">
+    <span>Automated theorem proving</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="BDD">
+    <span>BDD</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CTL">
+    <span>CTL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="DMat">
+    <span>DMat</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Data refinement">
+    <span>Data refinement</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Domains">
+    <span>Domains</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="FOL">
+    <span>FOL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Fixed Point Calculus">
+    <span>Fixed Point Calculus</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Formal Semantics">
+    <span>Formal Semantics</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Formal Semantics ">
+    <span>Formal Semantics </span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Formal program techniques">
+    <span>Formal program techniques</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Functional Programming">
+    <span>Functional Programming</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Hoare Logic">
+    <span>Hoare Logic</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="LTL">
+    <span>LTL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Mathematics of Program Construction">
+    <span>Mathematics of Program Construction</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Model Checking">
+    <span>Model Checking</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Multi-paradigm Specifications">
+    <span>Multi-paradigm Specifications</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Petri Nets">
+    <span>Petri Nets</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Pi-Calculus">
+    <span>Pi-Calculus</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Polytypism">
+    <span>Polytypism</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Process Algebras">
+    <span>Process Algebras</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Program verification">
+    <span>Program verification</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Refinement Calculus">
+    <span>Refinement Calculus</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Refinement in B">
+    <span>Refinement in B</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Safety Analysis Techniques">
+    <span>Safety Analysis Techniques</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Software Testing">
+    <span>Software Testing</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Software architecture">
+    <span>Software architecture</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="TLA">
+    <span>TLA</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="TT">
+    <span>TT</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="TT ">
+    <span>TT </span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Temporal Logic">
+    <span>Temporal Logic</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Unknown">
+    <span>Unknown</span>
+  </label>
+</div>
+            </fieldset>
+        </div>
+        <div class="well">
+            <fieldset id="languages_tools_criteria">
+                <legend>Languages/Tools</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_languages_tools">
+                    <span>All</span>
+                  </label>
+                </div>
+                
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Actress">
+    <span>Actress</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Alloy">
+    <span>Alloy</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Atelier-B">
+    <span>Atelier-B</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="B-Method">
+    <span>B-Method</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="B-Toolkit">
+    <span>B-Toolkit</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="BBDC">
+    <span>BBDC</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CADP">
+    <span>CADP</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CADiZ">
+    <span>CADiZ</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CASL">
+    <span>CASL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CCS">
+    <span>CCS</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="COQ">
+    <span>COQ</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CSP">
+    <span>CSP</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CWB">
+    <span>CWB</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="CommUnity">
+    <span>CommUnity</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="E-LOTOS">
+    <span>E-LOTOS</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="ESC/Java 2">
+    <span>ESC/Java 2</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Estelle">
+    <span>Estelle</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Extended ML">
+    <span>Extended ML</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="FDR">
+    <span>FDR</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="FSP">
+    <span>FSP</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="FuZZ">
+    <span>FuZZ</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="GHC">
+    <span>GHC</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Gofer">
+    <span>Gofer</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="HOL">
+    <span>HOL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Haskell">
+    <span>Haskell</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Hugs">
+    <span>Hugs</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="IVDM Library">
+    <span>IVDM Library</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Integrated Net Analyzer">
+    <span>Integrated Net Analyzer</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Irish VDM">
+    <span>Irish VDM</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Isabelle">
+    <span>Isabelle</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="JML">
+    <span>JML</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="LOTOS">
+    <span>LOTOS</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="LOTREC">
+    <span>LOTREC</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="LTSA">
+    <span>LTSA</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="MSC">
+    <span>MSC</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="NuSMV">
+    <span>NuSMV</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Object-Z">
+    <span>Object-Z</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="PICT">
+    <span>PICT</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="PVS">
+    <span>PVS</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Prolog">
+    <span>Prolog</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="RAISE tools">
+    <span>RAISE tools</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="RAT">
+    <span>RAT</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="RML">
+    <span>RML</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="RSL">
+    <span>RSL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="SDL">
+    <span>SDL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="SPIN">
+    <span>SPIN</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Standard ML">
+    <span>Standard ML</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="T-Logic">
+    <span>T-Logic</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="TRIO">
+    <span>TRIO</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="The CAML Language">
+    <span>The CAML Language</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="UPPAAL">
+    <span>UPPAAL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Unity">
+    <span>Unity</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Unknown">
+    <span>Unknown</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="VDM++">
+    <span>VDM++</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="VDM-SL">
+    <span>VDM-SL</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="VDMTools">
+    <span>VDMTools</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="WHY">
+    <span>WHY</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Z-Notation">
+    <span>Z-Notation</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="Z/EVES">
+    <span>Z/EVES</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="ZANS">
+    <span>ZANS</span>
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="ZTC">
+    <span>ZTC</span>
+  </label>
+</div>
+            </fieldset>
+        </div>
+    </div>
+
+<!-- /.col-md-3 -->
+    <div class="col-md-9">
+      <div class="row">
+        <div class="content col-md-12">
+          <div id="pagination" class="courses-pagination col-md-9"></div>
+          <div class="col-md-3 content">
+            Per Page: <span id="per_page" class="content"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="courses row" id="courses"> </div>
+    </div>
+<!-- /.col-md-9 -->
+</div>
+<!-- /.container -->
+
+      <script id="course-template" type="text/html">
+        <div class="col-md-4 course">
+          <div class="thumbnail">
+            <span class="label label-success year_level">Year/Level: <%= year_level %>
+          </span>
+          <div class="caption">
+            <h4><%= name %></h4>
+            <div class="detail">
+              <dl>
+                <dt>Contact</dt>
+                <dd><%= contact %></dd>
+                <dt>Topics</dt>
+                <dd><%= topics %></dt>
+                <dt>Languages/Tools</dt>
+                <dd><%= languages_tools %></dt>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+      </script>
+      <!--
+      <script id="tools_template" type="text/html">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="<%= tools %>"> <%= tools %>
+          </label>
+        </div>
+      </script>
+      -->
+
+
+    </body>
+  </html>
