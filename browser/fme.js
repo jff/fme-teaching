@@ -18,7 +18,7 @@ $(document).ready(function(){
       if(result.length > 0){
         count = jQ.where({ 'topics': c.val() }).count;
       }
-      c.next().text(c.val() + '(' + count + ')')
+      c.next().text(c.val() + ' (' + count + ')')
     });
 
     var checkboxes  = $("#languages_tools_criteria :input:gt(0)");
@@ -29,7 +29,7 @@ $(document).ready(function(){
       if(result.length > 0){
         count = jQ.where({ 'languages_tools': c.val() }).count;
       }
-      c.next().text(c.val() + '(' + count + ')')
+      c.next().text(c.val() + ' (' + count + ')')
     });
 
 
@@ -38,7 +38,7 @@ $(document).ready(function(){
   var FJS = FilterJS(courses, '#courses', {
     template: '#course-template',
     search: { ele: '#searchbox' },
-    //search: {ele: '#searchbox', fields: ['runtime']}, // With specific fields
+    //search: {ele: '#searchbox', fields: ['languages_tools']}, // With specific fields
     callbacks: {
       afterFilter: afterFilter 
     },
@@ -52,12 +52,15 @@ $(document).ready(function(){
     }
   });
 
+  /*
   FJS.addCallback('beforeAddRecords', function(){
     if(this.recordsCount >= 450){
       this.stopStreaming();
     }
   });
+  */
 
+  /*
   FJS.addCallback('afterAddRecords', function(){
     var percent = (this.recordsCount - 250)*100/250;
 
@@ -67,61 +70,16 @@ $(document).ready(function(){
       $('#stream_progress').parent().fadeOut(1000);
     }
   });
-
-/*
-  FJS.setStreaming({
-    data_url: 'data/stream_courses.json',
-    stream_after: 1,
-    batch_size: 50
-  });
-*/
+  */
 
   FJS.addCriteria({field: 'year_level', ele: '#year_level_filter', all: 'all'});
   FJS.addCriteria({field: 'topics', ele: '#topics_criteria input:checkbox'});
   FJS.addCriteria({field: 'languages_tools', ele: '#languages_tools_criteria input:checkbox'});
 
-  /*FJS.addCriteria({field: 'runtime', ele: '#runtime_filter', type: 'range'});*/
-/*  FJS.addCriteria({field: 'rating', ele: '#rating_filter', type: 'range'}); */
-  /* FJS.addCriteria({field: 'year_level', ele: '#year_level_filter', type: 'range', all: 'all'}); */
-
-  /*
-   * Add multiple criterial.
-    FJS.addCriteria([
-      {field: 'topics', ele: '#topics_criteria input:checkbox'},
-      {field: 'year_level', ele: '#year_level_filter', type: 'range'}
-    ])
-  */
-
   window.FJS = FJS;
 });
 
 function initSliders(){
-  /*
-  $("#rating_slider").slider({
-    min: 8,
-    max: 10,
-    values:[8, 10],
-    step: 0.1,
-    range:true,
-    slide: function( event, ui ) {
-      $("#rating_range_label" ).html(ui.values[ 0 ] + ' - ' + ui.values[ 1 ]);
-      $('#rating_filter').val(ui.values[0] + '-' + ui.values[1]).trigger('change');
-    }
-  });
-
-  $("#runtime_slider").slider({
-    min: 50,
-    max: 250,
-    values:[0, 250],
-    step: 10,
-    range:true,
-    slide: function( event, ui ) {
-      $("#runtime_range_label" ).html(ui.values[ 0 ] + ' mins. - ' + ui.values[ 1 ] + ' mins.');
-      $('#runtime_filter').val(ui.values[0] + '-' + ui.values[1]).trigger('change');
-    }
-  });
-  */
-
   $('#topics_criteria :checkbox').prop('checked', true);
   $('#all_topics').on('click', function(){
     $('#topics_criteria :checkbox').prop('checked', $(this).is(':checked'));
