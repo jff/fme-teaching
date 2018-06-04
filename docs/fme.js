@@ -80,6 +80,7 @@ $(document).ready(function(){
 });
 
 function initSliders(){
+  /*
   $('#topics_criteria :checkbox').prop('checked', true);
   $('#all_topics').on('click', function(){
     $('#topics_criteria :checkbox').prop('checked', $(this).is(':checked'));
@@ -89,5 +90,5 @@ function initSliders(){
   $('#all_languages_tools').on('click', function(){
     $('#languages_tools_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
-
+  */
 }
