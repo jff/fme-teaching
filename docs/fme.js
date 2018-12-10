@@ -32,7 +32,6 @@ $(document).ready(function(){
       c.next().text(c.val() + ' (' + count + ')')
     });
 
-
   }
 
   var FJS = FilterJS(courses, '#courses', {

@@ -4,7 +4,7 @@ var courses = [
   "year_level": "Unknown",
   "contact": "P.D. Mosses",
   "offered_at": "Aarhus",
-  "topics": "Action Semantics",
+  "topics": [ "Action Semantics" ],
   "languages_tools": [
     "Actress",
     "RAT",
@@ -75,8 +75,8 @@ var courses = [
   "year_level": "3",
   "contact": "N. Dean",
   "offered_at": "Anglia",
-  "topics": "Unknown",
-  "languages_tools": "Z-Notation"
+  "topics": [ "Unknown" ],
+  "languages_tools": [ "Z-Notation" ]
 },
 {
   "name": "Theory of Computation",
@@ -113,8 +113,8 @@ var courses = [
   "year_level": "Unknown",
   "contact": "J. Padberg",
   "offered_at": "Berlin",
-  "topics": "Petri Nets",
-  "languages_tools": "Unknown"
+  "topics": [ "Petri Nets" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Program Quality Verification",
@@ -125,7 +125,7 @@ var courses = [
     "Abstract Interpretation",
     "TT"
   ],
-  "languages_tools": "T-Logic"
+  "languages_tools": [ "T-Logic" ]
 },
 {
   "name": "Specification and Formal Verification in B",
@@ -147,16 +147,16 @@ var courses = [
   "year_level": "Unknown",
   "contact": "A. Griffault",
   "offered_at": "Bordeaux",
-  "topics": "Unknown",
-  "languages_tools": "Unknown"
+  "topics": [ "Unknown" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Formal Specifications",
   "year_level": "Unknown",
   "contact": "A. Griffault",
   "offered_at": "Bordeaux",
-  "topics": "Unknown",
-  "languages_tools": "Unknown"
+  "topics": [ "Unknown" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Specification and synthesis of Haskell programs",
@@ -167,7 +167,7 @@ var courses = [
     "Functional Programming",
     "Algebra of Programming"
   ],
-  "languages_tools": "Haskell"
+  "languages_tools": [ "Haskell" ]
 },
 {
   "name": "Techniques of Correct Software Development",
@@ -190,24 +190,24 @@ var courses = [
   "year_level": "Unknown",
   "contact": "L. Schr\u00f6der",
   "offered_at": "Bremen",
-  "topics": "ADT",
-  "languages_tools": "CASL"
+  "topics": [ "ADT" ],
+  "languages_tools": [ "CASL" ]
 },
 {
   "name": "Semantics of Programming Languages",
   "year_level": "Unknown",
   "contact": "L. Schr\u00f6der",
   "offered_at": "Bremen",
-  "topics": "Formal Semantics",
-  "languages_tools": "Unknown"
+  "topics": [ "Formal Semantics" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Systems, Automata, and Coalgebras",
   "year_level": "Unknown",
   "contact": "L. Schr\u00f6der",
   "offered_at": "Bremen",
-  "topics": "Process Algebras",
-  "languages_tools": "CCS"
+  "topics": [ "Process Algebras" ],
+  "languages_tools": [ "CCS" ]
 },
 {
   "name": "Temporal and Modal Logics for Parallelism and security",
@@ -218,7 +218,7 @@ var courses = [
     "Temporal Logic",
     "Process Algebras"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Methodes formelles, verification, model checking",
@@ -230,14 +230,14 @@ var courses = [
     "CTL",
     "Model Checking"
   ],
-  "languages_tools": "LOTREC"
+  "languages_tools": [ "LOTREC" ]
 },
 {
   "name": "Software Engineering II",
   "year_level": "Unknown",
   "contact": "L.C. Paulson",
   "offered_at": "Cambridge",
-  "topics": "Algorithm refinement",
+  "topics": [ "Algorithm refinement" ],
   "languages_tools": [
     "Z-Notation",
     "Standard ML"
@@ -252,14 +252,14 @@ var courses = [
     "ADT",
     "Process Algebras"
   ],
-  "languages_tools": "CASL"
+  "languages_tools": [ "CASL" ]
 },
 {
   "name": "System Modelling and Specification",
   "year_level": "Unknown",
   "contact": "A. Hughes",
   "offered_at": "Dublin",
-  "topics": "Mathematics of Program Construction",
+  "topics": [ "Mathematics of Program Construction" ],
   "languages_tools": [
     "Haskell",
     "Irish VDM",
@@ -276,7 +276,7 @@ var courses = [
     "Algorithms and Complexity",
     "Pi-Calculus"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Information Systems (part II)",
@@ -287,14 +287,14 @@ var courses = [
     "Formal Semantics",
     "Mathematics of Program Construction"
   ],
-  "languages_tools": "Irish VDM"
+  "languages_tools": [ "Irish VDM" ]
 },
 {
   "name": "Functional Programming and Specification",
   "year_level": "Unknown",
   "contact": "D. Sannella",
   "offered_at": "Edinburgh",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Standard ML",
     "Extended ML"
@@ -319,24 +319,24 @@ var courses = [
   "year_level": "4",
   "contact": "J. Baeten",
   "offered_at": "Eindhoven",
-  "topics": "Unknown",
-  "languages_tools": "Unknown"
+  "topics": [ "Unknown" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Process Algebra",
   "year_level": "2/3",
   "contact": "J. Baeten",
   "offered_at": "Eindhoven",
-  "topics": "Process Algebras",
-  "languages_tools": "Unknown"
+  "topics": [ "Process Algebras" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Proving with Computer Assistance",
   "year_level": "4.2",
   "contact": "R. Nederpelt",
   "offered_at": "Eindhoven",
-  "topics": "Automated theorem proving",
-  "languages_tools": "Unknown"
+  "topics": [ "Automated theorem proving" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Formal Methods in Systems Modeling",
@@ -347,15 +347,15 @@ var courses = [
     "Algebra of Programming",
     "Formal program techniques"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Further Programming 1",
   "year_level": "1",
   "contact": "R. Irving",
   "offered_at": "Glasgow",
-  "topics": "Formal program techniques",
-  "languages_tools": "Unknown"
+  "topics": [ "Formal program techniques" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Software Technology",
@@ -376,39 +376,39 @@ var courses = [
   "year_level": "Unknown",
   "contact": "P. Lucas",
   "offered_at": "Graz",
-  "topics": "Formal program techniques",
-  "languages_tools": "PVS"
+  "topics": [ "Formal program techniques" ],
+  "languages_tools": [ "PVS" ]
 },
 {
   "name": "Reasoning about Programs",
   "year_level": "1",
   "contact": "K. Broda",
   "offered_at": "Imperial C.",
-  "topics": "Formal program techniques",
-  "languages_tools": "Unknown"
+  "topics": [ "Formal program techniques" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Software Engineering Environments",
   "year_level": "Unknown",
   "contact": "M. Huth",
   "offered_at": "Imperial C.",
-  "topics": "Formal program techniques",
-  "languages_tools": "Alloy"
+  "topics": [ "Formal program techniques" ],
+  "languages_tools": [ "Alloy" ]
 },
 {
   "name": "Software Engineering - Methods",
   "year_level": "Unknown",
   "contact": "M. Huth",
   "offered_at": "Imperial C.",
-  "topics": "Formal program techniques",
-  "languages_tools": "Alloy"
+  "topics": [ "Formal program techniques" ],
+  "languages_tools": [ "Alloy" ]
 },
 {
   "name": "Software and Systems Design",
   "year_level": "BSc 2",
   "contact": "R. Lemos",
   "offered_at": "Kent",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Z-Notation",
     "CADiZ"
@@ -424,14 +424,14 @@ var courses = [
     "Formal program techniques",
     "FOL"
   ],
-  "languages_tools": "Z-Notation"
+  "languages_tools": [ "Z-Notation" ]
 },
 {
   "name": "Distributed Systems",
   "year_level": "BSc 3",
   "contact": "E.A. Boiten",
   "offered_at": "Kent",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "E-LOTOS",
     "Estelle",
@@ -443,15 +443,15 @@ var courses = [
   "year_level": "BSc 3",
   "contact": "R. Lemos",
   "offered_at": "Kent",
-  "topics": "Model Checking",
-  "languages_tools": "UPPAAL"
+  "topics": [ "Model Checking" ],
+  "languages_tools": [ "UPPAAL" ]
 },
 {
   "name": "Formal Methods",
   "year_level": "MSc",
   "contact": "H. Bowman",
   "offered_at": "Kent",
-  "topics": "Model Checking",
+  "topics": [ "Model Checking" ],
   "languages_tools": [
     "LOTOS",
     "Object-Z",
@@ -463,7 +463,7 @@ var courses = [
   "year_level": "Unknown",
   "contact": "J. Fiadeiro",
   "offered_at": "Leicester",
-  "topics": "Software architecture",
+  "topics": [ "Software architecture" ],
   "languages_tools": [
     "Unity",
     "CommUnity"
@@ -478,46 +478,46 @@ var courses = [
     "Model Checking",
     "Program verification"
   ],
-  "languages_tools": "B-Method"
+  "languages_tools": [ "B-Method" ]
 },
 {
   "name": "Introduction to the Theory of Computation",
   "year_level": "Unknown",
   "contact": "A. Kurucz",
   "offered_at": "London (K.C.)",
-  "topics": "Unknown",
-  "languages_tools": "Unknown"
+  "topics": [ "Unknown" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Applied Logic",
   "year_level": "Unknown",
   "contact": "M. Zakharyaschev",
   "offered_at": "London (K.C.)",
-  "topics": "CTL",
-  "languages_tools": "Unknown"
+  "topics": [ "CTL" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Modal and Temporal Logics",
   "year_level": "Unknown",
   "contact": "A. Kurucz",
   "offered_at": "London (K.C.)",
-  "topics": "Temporal Logic",
-  "languages_tools": "Unknown"
+  "topics": [ "Temporal Logic" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Formal Methods",
   "year_level": "Unknown",
   "contact": "D. Buchs",
   "offered_at": "Lausanne",
-  "topics": "ADT",
-  "languages_tools": "Unknown"
+  "topics": [ "ADT" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Formal Aspects of Software Engineering I",
   "year_level": "S4-S7",
   "contact": "A. Haxthausen",
   "offered_at": "Lyngby",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "RSL",
     "RAISE tools"
@@ -542,7 +542,7 @@ var courses = [
   "year_level": "4",
   "contact": "R.G. Crespo",
   "offered_at": "Lisbon",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Z-Notation",
     "LOTOS"
@@ -571,7 +571,7 @@ var courses = [
     "FOL",
     "Formal program techniques"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Techniques de preuve et v\u00e9rification formelle",
@@ -582,15 +582,15 @@ var courses = [
     "Abstract State Machines",
     "Model Checking"
   ],
-  "languages_tools": "B-Method"
+  "languages_tools": [ "B-Method" ]
 },
 {
   "name": "M\u00e9thodes Formelles",
   "year_level": "MSc",
   "contact": "D. Cansell",
   "offered_at": "Metz",
-  "topics": "Formal program techniques",
-  "languages_tools": "B-Method"
+  "topics": [ "Formal program techniques" ],
+  "languages_tools": [ "B-Method" ]
 },
 {
   "name": "Formal methods for concurrent and distributed systems",
@@ -617,15 +617,15 @@ var courses = [
     "Model Checking",
     "Petri Nets"
   ],
-  "languages_tools": "SPIN"
+  "languages_tools": [ "SPIN" ]
 },
 {
   "name": "Industrial automation II",
   "year_level": "4/5",
   "contact": "L. Mezzalira",
   "offered_at": "Milan Poli.",
-  "topics": "Petri Nets",
-  "languages_tools": "TRIO"
+  "topics": [ "Petri Nets" ],
+  "languages_tools": [ "TRIO" ]
 },
 {
   "name": "Software Engineering II",
@@ -664,7 +664,7 @@ var courses = [
   "topics": [
     "TT"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Programming Logics III",
@@ -731,7 +731,7 @@ var courses = [
   "year_level": "5",
   "contact": "J.N. Oliveira",
   "offered_at": "Minho",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Alloy",
     "B-Method",
@@ -766,7 +766,7 @@ var courses = [
     "Hoare Logic",
     "Automated theorem proving"
   ],
-  "languages_tools": "Isabelle"
+  "languages_tools": [ "Isabelle" ]
 },
 {
   "name": "Foundations of Systems Development",
@@ -791,8 +791,8 @@ var courses = [
   "year_level": "5/ MSc",
   "contact": "D. M\u00e9ry",
   "offered_at": "Nancy",
-  "topics": "DMat",
-  "languages_tools": "B-Method"
+  "topics": [ "DMat" ],
+  "languages_tools": [ "B-Method" ]
 },
 {
   "name": "Models and Algorithms",
@@ -803,14 +803,14 @@ var courses = [
     "Formal program techniques",
     "Functional Programming"
   ],
-  "languages_tools": "Standard ML"
+  "languages_tools": [ "Standard ML" ]
 },
 {
   "name": "Model-Oriented Formal Methods",
   "year_level": "MSc",
   "contact": "J.C. Attiogb\u00e9",
   "offered_at": "Nantes",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Z-Notation",
     "B-Method",
@@ -825,8 +825,8 @@ var courses = [
   "year_level": "Unknown",
   "contact": "H. Habrias",
   "offered_at": "Nantes",
-  "topics": "Unknown",
-  "languages_tools": "B-Method"
+  "topics": [ "Unknown" ],
+  "languages_tools": [ "B-Method" ]
 },
 {
   "name": "Formal Methods Integration",
@@ -848,7 +848,7 @@ var courses = [
   "year_level": "2",
   "contact": "S. Riddle",
   "offered_at": "Newcastle",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "VDM-SL",
     "VDMTools"
@@ -859,7 +859,7 @@ var courses = [
   "year_level": "2",
   "contact": "J. Steggles",
   "offered_at": "Newcastle",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "VDM-SL",
     "VDMTools"
@@ -876,15 +876,15 @@ var courses = [
     "Model Checking",
     "Program verification"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Mathematics of Program Construction",
   "year_level": "1",
   "contact": "R. Backhouse",
   "offered_at": "Nottingham",
-  "topics": "Mathematics of Program Construction",
-  "languages_tools": "Unknown"
+  "topics": [ "Mathematics of Program Construction" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Programming Algebra",
@@ -896,14 +896,14 @@ var courses = [
     "Fixed Point Calculus",
     "Polytypism"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Specification of Reactive Systems",
   "year_level": "Unknown",
   "contact": "H. Wehrheim",
   "offered_at": "Oldenburg",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "CSP",
     "SPIN",
@@ -915,16 +915,16 @@ var courses = [
   "year_level": "Unknown",
   "contact": "G. Jones",
   "offered_at": "Oxford",
-  "topics": "Algorithm refinement",
-  "languages_tools": "Unknown"
+  "topics": [ "Algorithm refinement" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Formal Program Design II",
   "year_level": "Unknown",
   "contact": "R. Bird",
   "offered_at": "Oxford",
-  "topics": "Data refinement",
-  "languages_tools": "Unknown"
+  "topics": [ "Data refinement" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Lambda Calculus",
@@ -934,15 +934,15 @@ var courses = [
   "topics": [
     "Functional Programming"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Application-Oriented Program Semantics",
   "year_level": "Unknown",
   "contact": "J. Sanders",
   "offered_at": "Oxford",
-  "topics": "Formal Semantics",
-  "languages_tools": "Unknown"
+  "topics": [ "Formal Semantics" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Domain Theory",
@@ -953,22 +953,22 @@ var courses = [
     "Domains",
     "Pi-Calculus"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Software Engineering Mathematics",
   "year_level": "M",
   "contact": "A. Martin",
   "offered_at": "Oxford",
-  "topics": "DMat",
-  "languages_tools": "Z-Notation"
+  "topics": [ "DMat" ],
+  "languages_tools": [ "Z-Notation" ]
 },
 {
   "name": "Specification and Design",
   "year_level": "M",
   "contact": "A. Martin",
   "offered_at": "Oxford",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Z-Notation",
     "FuZZ"
@@ -983,14 +983,14 @@ var courses = [
     "Refinement Calculus",
     "Data refinement"
   ],
-  "languages_tools": "Z-Notation"
+  "languages_tools": [ "Z-Notation" ]
 },
 {
   "name": "Machine-Assisted Software Engineering",
   "year_level": "M",
   "contact": "J. Davies",
   "offered_at": "Oxford",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "B-Method",
     "B-Toolkit"
@@ -1001,7 +1001,7 @@ var courses = [
   "year_level": "M",
   "contact": "J. Davies",
   "offered_at": "Oxford",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "CSP",
     "FDR"
@@ -1012,7 +1012,7 @@ var courses = [
   "year_level": "M",
   "contact": "J. Davies",
   "offered_at": "Oxford",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "CSP",
     "FDR"
@@ -1023,7 +1023,7 @@ var courses = [
   "year_level": "M",
   "contact": "J. Gibbons",
   "offered_at": "Oxford",
-  "topics": "Functional Programming",
+  "topics": [ "Functional Programming" ],
   "languages_tools": [
     "Haskell",
     "Hugs",
@@ -1055,14 +1055,14 @@ var courses = [
     "Model Checking",
     "Temporal Logic"
   ],
-  "languages_tools": "BBDC"
+  "languages_tools": [ "BBDC" ]
 },
 {
   "name": "M\u00e9thodes Formelles de sp\u00e9cification des Syst\u00e8mes Informatiques",
   "year_level": "5",
   "contact": "S. Vignes",
   "offered_at": "Paris (ENST)",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Z-Notation",
     "B-Method"
@@ -1073,8 +1073,8 @@ var courses = [
   "year_level": "MSc",
   "contact": "P. Cousot",
   "offered_at": "Paris VII (et al)",
-  "topics": "Abstract Interpretation",
-  "languages_tools": "Unknown"
+  "topics": [ "Abstract Interpretation" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Verification of infinite systems",
@@ -1085,15 +1085,15 @@ var courses = [
     "Petri Nets",
     "Program verification"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "foundations_of_informaticsSemantics A",
   "year_level": "Unknown",
   "contact": "U. Montanari",
   "offered_at": "Pisa",
-  "topics": "Formal Semantics",
-  "languages_tools": "Unknown"
+  "topics": [ "Formal Semantics" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "foundations_of_informaticsSemantics II",
@@ -1103,7 +1103,7 @@ var courses = [
   "topics": [
     "TT "
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Sp\u00e9cifications Formelles",
@@ -1114,7 +1114,7 @@ var courses = [
     "Formal program techniques",
     "Formal Semantics"
   ],
-  "languages_tools": "B-Method"
+  "languages_tools": [ "B-Method" ]
 },
 {
   "name": "Formal methods in informatics",
@@ -1126,7 +1126,7 @@ var courses = [
     "Fixed Point Calculus",
     "Domains"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Paradigmi di Programmazione",
@@ -1140,14 +1140,14 @@ var courses = [
     "Formal program techniques",
     "Formal Semantics"
   ],
-  "languages_tools": "Standard ML"
+  "languages_tools": [ "Standard ML" ]
 },
 {
   "name": "Introduction to Formal Methods",
   "year_level": "1",
   "contact": "M.J. Butler",
   "offered_at": "Southampton",
-  "topics": "Program verification",
+  "topics": [ "Program verification" ],
   "languages_tools": [
     "Z-Notation",
     "ZTC"
@@ -1158,7 +1158,7 @@ var courses = [
   "year_level": "2",
   "contact": "M.J. Butler",
   "offered_at": "Southampton",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "Z-Notation",
     "ZTC"
@@ -1183,7 +1183,7 @@ var courses = [
   "year_level": "S2",
   "contact": "A. Abdallah",
   "offered_at": "London (S.B.)",
-  "topics": "Unknown",
+  "topics": [ "Unknown" ],
   "languages_tools": [
     "CSP",
     "Z-Notation",
@@ -1195,8 +1195,8 @@ var courses = [
   "year_level": "Unknown",
   "contact": "S. Maharaj",
   "offered_at": "Stirling",
-  "topics": "Unknown",
-  "languages_tools": "Z-Notation"
+  "topics": [ "Unknown" ],
+  "languages_tools": [ "Z-Notation" ]
 },
 {
   "name": "Sp\u00e9cifications formelles, connaissances et raisonnement",
@@ -1206,7 +1206,7 @@ var courses = [
   "topics": [
     "Program verification"
   ],
-  "languages_tools": "COQ"
+  "languages_tools": [ "COQ" ]
 },
 {
   "name": "Foundations of Informatics (semantics)",
@@ -1217,22 +1217,22 @@ var courses = [
     "Formal Semantics",
     "TT"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Mod\u00e9lisation et analyse des syst\u00e8mes \u00e0 \u00e9v\u00e9nements discrets",
   "year_level": "Unknown",
   "contact": "Robert Valette",
   "offered_at": "Toulouse",
-  "topics": "Petri Nets",
-  "languages_tools": "Unknown"
+  "topics": [ "Petri Nets" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Formal Methods for Software Engineering",
   "year_level": "Unknown",
   "contact": "E. Brinksma",
   "offered_at": "Twente",
-  "topics": "Process Algebras",
+  "topics": [ "Process Algebras" ],
   "languages_tools": [
     "Z-Notation",
     "SDL",
@@ -1282,15 +1282,15 @@ var courses = [
     "Formal Semantics",
     "Hoare Logic"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Design of Information Structures",
   "year_level": "1",
   "contact": "S. Russ",
   "offered_at": "Warwick",
-  "topics": "ADT",
-  "languages_tools": "Unknown"
+  "topics": [ "ADT" ],
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Formal Methods in Software Engineering",
@@ -1301,14 +1301,14 @@ var courses = [
     "Program verification",
     "Model Checking"
   ],
-  "languages_tools": "Unknown"
+  "languages_tools": [ "Unknown" ]
 },
 {
   "name": "Introd. to high-level system design and analysis",
   "year_level": "S1",
   "contact": "R.F. Staerk",
   "offered_at": "Zuerich",
-  "topics": "Abstract State Machines",
-  "languages_tools": "Unknown"
+  "topics": [ "Abstract State Machines" ],
+  "languages_tools": [ "Unknown" ]
 }
 ]
