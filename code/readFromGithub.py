@@ -68,6 +68,9 @@ def create_list_courses(courses_repo, fme_github_key):
             course = process_issue_body(issue.body)
             course['course_title'] = issue.title
 
+            if issue.labels:
+                course['course_country'] = issue.labels[0].name
+
             # Change string of tools and concepts to list
             if 'course_concepts' in course and course['course_concepts']:
                 concepts = course['course_concepts']
@@ -108,6 +111,7 @@ def create_list_courses(courses_repo, fme_github_key):
     return courses
 
 
+# TODO: UNIFY THE FOLLOWING 3 FUNCTIONS INTO ONE THAT RECEIVES THE KEY
 def list_of_concepts(list_courses):
     """ Given a list of courses (as dictionaries), this function
     returns a sorted list of all the concepts used.
@@ -132,6 +136,19 @@ def list_of_tools(list_courses):
     return tools
 
 
+def list_of_countries(list_courses):
+    """ Given a list of courses (as dictionaries), this function
+    returns a sorted list of all the countries used.
+    """
+    countries = []
+    for course in list_courses:
+        # IMPORTANT: note the use of lists for course_country
+        countries.extend([course['course_country']])
+    countries = list(set(countries))
+    countries.sort()
+    return countries
+
+
 # Driver code below
 
 courses = create_list_courses(courses_repo, fme_github_key)
@@ -143,6 +160,10 @@ concepts_json = json.dumps(concepts, indent=4)
 tools = list_of_tools(courses)
 tools_json = json.dumps(tools, indent=4)
 
+countries = list_of_countries(courses)
+countries_json = json.dumps(countries, indent=4)
+
+
 # Write to file
 f_out = open('fme-courses-github.js', 'w')
 f_out.write('var courses = \n')
@@ -151,4 +172,6 @@ f_out.write('\nvar concepts = \n')
 f_out.write(concepts_json)
 f_out.write('\nvar tools = \n')
 f_out.write(tools_json)
+f_out.write('\nvar countries = \n')
+f_out.write(countries_json)
 f_out.close()

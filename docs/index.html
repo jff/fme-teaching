@@ -62,6 +62,18 @@
                 </div>
             </fieldset>
         </div>
+        <div class="well">
+            <fieldset id="course_countries_criteria">
+                <legend>Country</legend>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="All" id="all_course_countries">
+                    <span>All</span>
+                  </label>
+                </div>
+            </fieldset>
+        </div>
+
     </div>
 
 <!-- /.col-md-3 -->
@@ -91,6 +103,8 @@
                 <dd><%= course_contact %></dd>
                 <dt>Institution</dt>
                 <dd><%= course_institution %></dd>
+                <dt>Country</dt>
+                <dd><%= course_country %></dd>
                 <dt>Course concepts</dt>
                 <dd><%= course_concepts %></dt>
                 <dt>Languages/Tools</dt>

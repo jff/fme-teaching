@@ -32,6 +32,17 @@ $(document).ready(function(){
       c.next().text(c.val() + ' (' + count + ')')
     });
 
+    var checkboxes  = $("#course_countries_criteria :input:gt(0)");
+
+    checkboxes.each(function(){
+      var c = $(this), count = 0
+
+      if(result.length > 0){
+        count = jQ.where({ 'course_country': c.val() }).count;
+      }
+      c.next().text(c.val() + ' (' + count + ')')
+    });
+
   }
 
   var FJS = FilterJS(courses, '#courses', {
@@ -54,6 +65,7 @@ $(document).ready(function(){
 //  FJS.addCriteria({field: 'year_level', ele: '#year_level_filter', all: 'all'});
   FJS.addCriteria({field: 'course_concepts', ele: '#course_concepts_criteria input:checkbox'});
   FJS.addCriteria({field: 'course_tools', ele: '#course_tools_criteria input:checkbox'});
+  FJS.addCriteria({field: 'course_country', ele: '#course_countries_criteria input:checkbox'});
 
   window.FJS = FJS;
 });
@@ -67,5 +79,10 @@ function initSliders(){
   $('#course_tools_criteria :checkbox').prop('checked', true);
   $('#all_course_tools').on('click', function(){
     $('#course_tools_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  });
+
+  $('#course_countries_criteria :checkbox').prop('checked', true);
+  $('#all_course_countries').on('click', function(){
+    $('#course_countries_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
 }
