@@ -84,10 +84,31 @@ select:focus, textarea:focus, input:focus{
 }
 
 .title{
-  padding: 5px 0 ;
+  padding: 0px;
   color: #222;
   font-size: 25px;
   font-weight: 600;
+  position: relative;
+}
+
+#logo{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("../images/fme.png");
+  background-size: 50px 50px;
+}
+
+.title a{
+  margin-left: 10px;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  /* The following centers the link vertically */
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .content{
