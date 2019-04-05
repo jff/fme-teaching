@@ -14,7 +14,8 @@ def map_to_keys(field):
          'Contact person': 'course_contact',
          'Concepts taught': 'course_concepts',
          'Tools used': 'course_tools',
-         'Webpage': 'course_webpage'
+         'Webpage': 'course_webpage',
+         'Year/Level': 'course_year_level'
          }
     if field not in d:
         d[field] = ''
@@ -88,12 +89,15 @@ def create_list_courses(courses_repo, fme_github_key):
                 course['course_tools'] = ["Unknown"]
 
             # Check whether the institution is defined
-            if 'course_institution' not in course or \
-               course['course_institution']:
+            if 'course_institution' not in course:
                 course['course_institution'] = ["Unknown"]
 
+            # Check whether the year/level is defined
+            if 'course_year_level' not in course:
+                course['course_year_level'] = ["Unknown"]
+
             # Check whether the webpage is defined and remove trailing /
-            if 'course_webpage' not in course:  # or course['course_webpage']:
+            if 'course_webpage' not in course:
                 course['course_webpage'] = "#"
             else:
                 webpage = course['course_webpage']

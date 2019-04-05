@@ -96,9 +96,9 @@ select:focus, textarea:focus, input:focus{
 
 .thumbnail{
   /* background-color: #EEE; */
-  min-height: 265px;
   border-radius: 0;
-  min-height: 300px;
+  min-height: 450px;
+  overflow-wrap: break-word;
 }
 
 .label{
@@ -115,9 +115,9 @@ select:focus, textarea:focus, input:focus{
   width: 65px;
 }
 
-.caption h4{
+.caption h4, .caption a
+{
   color: #b22222;
-  min-height: 45px;
 }
 
 .field-row{

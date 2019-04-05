@@ -24,11 +24,11 @@
           <span class="glyphicon glyphicon-search search-icon"></span>
         </div>
         <br>
-	<!--
+	
         <div class="well">
-            <fieldset id="year_level_criteria">
+            <fieldset id="course_year_level_criteria">
                 <legend>Year/Level</legend>
-                <select class="form-control" id="year_level_filter">
+                <select class="form-control" id="course_year_level_filter">
                     <option value="all">All</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -39,7 +39,7 @@
                 </select>
             </fieldset>
         </div>
-	-->
+
         <div class="well">
             <fieldset id="course_concepts_criteria">
                 <legend>Topics</legend>
@@ -95,8 +95,12 @@
 
       <script id="course-template" type="text/html">
         <div class="col-md-4 course">
+          <div class="thumbnail">
+            <span class="label label-success year_level">
+              Year/Level: <%= course_year_level %>
+            </span>
           <div class="caption">
-	    <h4><a href=<%= course_webpage %>><%= course_title %></a></h4>
+            <h4><a href=<%= course_webpage %>><%= course_title %></a></h4>
             <div class="detail">
               <dl>
                 <dt>Contact</dt>
@@ -111,6 +115,7 @@
                 <dd><%= course_tools %></dt>
               </dl>
             </div>
+          </div>
           </div>
         </div>
       </div>

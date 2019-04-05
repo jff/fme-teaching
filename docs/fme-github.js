@@ -56,13 +56,13 @@ $(document).ready(function(){
       container: '#pagination',
       visiblePages: 5,
       perPage: {
-        values: [12, 15, 18],
+        values: [12, 24, 48, 96],
         container: '#per_page'
       },
     }
   });
 
-//  FJS.addCriteria({field: 'year_level', ele: '#year_level_filter', all: 'all'});
+  FJS.addCriteria({field: 'course_year_level', ele: '#course_year_level_filter', all: 'all'});
   FJS.addCriteria({field: 'course_concepts', ele: '#course_concepts_criteria input:checkbox'});
   FJS.addCriteria({field: 'course_tools', ele: '#course_tools_criteria input:checkbox'});
   FJS.addCriteria({field: 'course_country', ele: '#course_countries_criteria input:checkbox'});

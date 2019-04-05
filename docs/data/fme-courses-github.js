@@ -1,9 +1,7 @@
 var courses = 
 [
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Open University of the Netherlands",
         "course_contact": "Stef Joosten",
         "course_concepts": [
             "Specify An Information System By Means Of Constraints On A Data Space Built Up Of Relations."
@@ -13,12 +11,13 @@ var courses =
         ],
         "course_webpage": "https://www.ou.nl/-/IM0403_Rule-Based-Design",
         "course_title": "Rule Based Design",
-        "course_country": "Netherlands"
+        "course_country": "Netherlands",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "TU Delft",
         "course_contact": "Jeroen Keiren",
         "course_concepts": [
             "Labelled Transition Systems",
@@ -34,12 +33,13 @@ var courses =
         ],
         "course_webpage": "https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=45569",
         "course_title": "System Validation",
-        "course_country": "Netherlands"
+        "course_country": "Netherlands",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Eindhoven University of Technology",
         "course_contact": "Jeroen Keiren",
         "course_concepts": [
             "Uml",
@@ -55,12 +55,13 @@ var courses =
         ],
         "course_webpage": "https://osiris.tue.nl/osiris_student_tueprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2018&cursus=2IX20&taal=en",
         "course_title": "Software Specification",
-        "course_country": "Netherlands"
+        "course_country": "Netherlands",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Eindhoven University of Technology",
         "course_contact": "Bas Luttik",
         "course_concepts": [
             "Process Calculus",
@@ -74,12 +75,13 @@ var courses =
         ],
         "course_webpage": "https://canvas.tue.nl/courses/8829",
         "course_title": "Process Algebra",
-        "course_country": "Netherlands"
+        "course_country": "Netherlands",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Eindhoven University of Technology",
         "course_contact": "Jan Friso Groote",
         "course_concepts": [
             "Behavioural Equivalences",
@@ -93,12 +95,13 @@ var courses =
         ],
         "course_webpage": "https://mitpress.mit.edu/books/modeling-and-analysis-communicating-systems",
         "course_title": "System Validation",
-        "course_country": "Netherlands"
+        "course_country": "Netherlands",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of Minho",
         "course_contact": "Jose N. Oliveira",
         "course_concepts": [
             "Formal Specification",
@@ -125,12 +128,13 @@ var courses =
         ],
         "course_webpage": "http://mei.di.uminho.pt/?q=en/mfes-en",
         "course_title": "Formal Methods for Software Engineering (25 ECTS)",
-        "course_country": "Portugal"
+        "course_country": "Portugal",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Bauhaus-Universit\u00e4t Weimar",
         "course_contact": "Stefan Lucks",
         "course_concepts": [
             "Ada",
@@ -143,12 +147,13 @@ var courses =
         "course_country": "Germany",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of M\u00e1laga",
         "course_contact": "Mar\u00eda-del-Mar Gallardo",
         "course_concepts": [
             "Model Checking",
@@ -162,12 +167,13 @@ var courses =
         ],
         "course_webpage": "https://oas.sci.uma.es:8443/pls/apex/f?p=101:1:4313528363359996::NO::INICIO_LOV_TIPO_ESTUDIO,INICIO_LOV_CURSO_ACAD,INICIO_LOV_CENTROS,INICIO_LOV_TITULACIONES,INICIO_LOV_CICLOS,INICIO_LOV_CURSOS,INICIO_BUSCAR:3,2018,306,5103,1,-1,404",
         "course_title": "Formal Methods in Software Engineering",
-        "course_country": "Spain"
+        "course_country": "Spain",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of Oslo",
         "course_contact": "Peter \u00d6lveczky",
         "course_concepts": [
             "Unknown"
@@ -177,13 +183,14 @@ var courses =
         ],
         "course_webpage": "https://www.uio.no/studier/emner/matnat/ifi/INF3232/index-eng.html",
         "course_title": "Logic for system analysis",
-        "course_country": "Norway"
+        "course_country": "Norway",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
         "course_code": "TDA567",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Chalmers University",
         "course_contact": "Srinivas Pinisetty",
         "course_concepts": [
             "Formal Specification And Verification Of Code"
@@ -193,13 +200,14 @@ var courses =
         ],
         "course_webpage": "http://www.cse.chalmers.se/edu/year/2017/course/TDA567/index.html",
         "course_title": "Testing, Debugging, and Verification",
-        "course_country": "Sweden"
+        "course_country": "Sweden",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
         "course_code": "TDA293",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Chalmers University",
         "course_contact": "Wolfgang Ahrendt",
         "course_concepts": [
             "Model Checking",
@@ -212,7 +220,10 @@ var courses =
         ],
         "course_webpage": "http://www.cse.chalmers.se/edu/year/2016/course/TDA293/index.html",
         "course_title": "Software Engineering using Formal Methods",
-        "course_country": "Sweden"
+        "course_country": "Sweden",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
         "course_contact": "Allan Blanchard (mail@allan-blanchard.fr)",
@@ -229,12 +240,13 @@ var courses =
         "course_country": "France",
         "course_institution": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of Toulouse/INPT/ENSEEIHT",
         "course_contact": "Marc Pantel (Marc.Pantel@enseeiht.fr)",
         "course_concepts": [
             "Logic",
@@ -249,12 +261,13 @@ var courses =
         ],
         "course_title": "Modeling and Programming",
         "course_country": "France",
+        "course_year_level": [
+            "Unknown"
+        ],
         "course_webpage": "#"
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of Toulouse/INPT/ENSEEIHT",
         "course_contact": "Marc Pantel (Marc.Pantel@enseeiht.fr)",
         "course_concepts": [
             "Software Analysis Tools (Weakest Precondition",
@@ -273,13 +286,14 @@ var courses =
         ],
         "course_title": "Certified Software",
         "course_country": "France",
+        "course_year_level": [
+            "Unknown"
+        ],
         "course_webpage": "#"
     },
     {
         "course_code": "CS 451/551",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Northern Arizona University",
         "course_contact": "Fr\u00e9d\u00e9ric Loulergue (frederic.loulergue@nau.edu)",
         "course_concepts": [
             "Operational Semantics; Axiomatic Semantics; Deductive Verification; Certified Compilation; Formalization In Coq; Program Analysis With Frama-C"
@@ -290,12 +304,13 @@ var courses =
         ],
         "course_webpage": "http://frederic.loulergue.eu/teaching/cs451.pdf",
         "course_title": "Mechanized Reasoning about Programs",
-        "course_country": "US"
+        "course_country": "US",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of Beira Interior",
         "course_contact": "Simao Melo de Sousa (desousa@di.ubi.pt)",
         "course_concepts": [
             "Deductive Program Verification",
@@ -309,12 +324,13 @@ var courses =
         ],
         "course_webpage": "http://www.di.ubi.pt/~desousa/CF/comfia.html",
         "course_title": "Computa\u00e7\u00e3o Fi\u00e1vel (Reliable Programming)",
-        "course_country": "Portugal"
+        "course_country": "Portugal",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Universit\u00e9 Paris-Diderot",
         "course_contact": "Claude March\u00e9 (Claude.Marche@inria.fr)",
         "course_concepts": [
             "Hoare Logic",
@@ -330,12 +346,13 @@ var courses =
         ],
         "course_webpage": "http://www.lri.fr/~marche/MPRI-2-36-1",
         "course_title": "Proofs of Programs",
-        "course_country": "France"
+        "course_country": "France",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Carnegie Mellon University",
         "course_contact": "Bryan Parno (parno@cmu.edu)",
         "course_concepts": [
             "Software Verification",
@@ -349,12 +366,13 @@ var courses =
         ],
         "course_webpage": "http://www.cs.cmu.edu/~15811",
         "course_title": "Verifying Complex Systems",
-        "course_country": "US"
+        "course_country": "US",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Politecnico di Milano",
         "course_contact": "Dino Mandrioli (dino.mandrioli@polimi.it)",
         "course_concepts": [
             "Logics For Specifying Syteme; Hoare'S Method; Timed Petri Nets",
@@ -366,12 +384,13 @@ var courses =
         ],
         "course_webpage": "http://home.deib.polimi.it/mandriol/Didattica/sitofms.html",
         "course_title": "Formal methods for concurrent and real-time systems",
-        "course_country": "Italy"
+        "course_country": "Italy",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Universit\u00e9 Paris-Saclay",
         "course_contact": "Andrei Paskevich and Julien Signoles (julien.signoles@cea.fr)",
         "course_concepts": [
             "Hoare Logic",
@@ -384,12 +403,13 @@ var courses =
         ],
         "course_webpage": "https://www.lri.fr/~conchon/parcours_fiil/science_logiciel.html",
         "course_title": "V\u00e9rification d\u00e9ductive de programmes (deductive verification of programs)",
-        "course_country": "France"
+        "course_country": "France",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Univ. Grenoble Alpes",
         "course_contact": "Hubert Garavel & Laurence Pierre (hubert.garavel@inria.fr)",
         "course_concepts": [
             "Applied Formal Methods"
@@ -399,13 +419,14 @@ var courses =
         ],
         "course_webpage": "http://hecs.imag.fr",
         "course_title": "HECS (High-Confidence Embedded and Cyberphysical Systems)",
-        "course_country": "France"
+        "course_country": "France",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
         "course_code": "COM00012H",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of York",
         "course_contact": "Jeremy Jacob",
         "course_concepts": [
             "Model-Oriented (Z) & Process-Oriented (Csp) Specification & Refinement"
@@ -415,12 +436,13 @@ var courses =
         ],
         "course_webpage": "(Behind a firewall)",
         "course_title": "Programming: Correctness by Construction",
-        "course_country": "UK"
+        "course_country": "UK",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of Limerick",
         "course_contact": "Tiziana Margaria",
         "course_concepts": [
             "Ormal Models",
@@ -431,13 +453,14 @@ var courses =
         "course_tools": [
             "Unknown"
         ],
+        "course_year_level": [
+            "Unknown"
+        ],
         "course_webpage": "#"
     },
     {
         "course_code": "COMP426",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Waikato",
         "course_contact": "Judy Bowen",
         "course_concepts": [
             "Formal Specification Of Interactive Systems"
@@ -447,13 +470,14 @@ var courses =
         "course_country": "New Zealand",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "COMPX361",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Waikato",
         "course_contact": "Steve Reeves",
         "course_concepts": [
             "Logic",
@@ -464,13 +488,14 @@ var courses =
         "course_country": "New Zealand",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "COMP452",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Waikato",
         "course_contact": "Robi Malik",
         "course_concepts": [
             "Model Checking"
@@ -480,13 +505,14 @@ var courses =
         "course_country": "New Zealand",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "COMP454",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Waikato",
         "course_contact": "Steve Reeves",
         "course_concepts": [
             "Formal Specification Using Z"
@@ -496,13 +522,14 @@ var courses =
         "course_country": "New Zealand",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "SWEN421",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Victoria University Wellington",
         "course_contact": "David Pearce",
         "course_concepts": [
             "Hoare Logic",
@@ -513,13 +540,14 @@ var courses =
         "course_country": "New Zealand",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "SWEN326",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Victoria University Wellington",
         "course_contact": "David Pearce",
         "course_concepts": [
             "Software Verification",
@@ -531,13 +559,14 @@ var courses =
         "course_country": "New Zealand",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "SWEN324",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Victoria University Wellington",
         "course_contact": "David Pearce",
         "course_concepts": [
             "Hoare Logic",
@@ -548,13 +577,14 @@ var courses =
         "course_country": "New Zealand",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "SWEN90010",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Melbourne",
         "course_contact": "Toby Murray",
         "course_concepts": [
             "Alloy",
@@ -566,13 +596,14 @@ var courses =
         ],
         "course_webpage": "https://handbook.unimelb.edu.au/2018/subjects/swen90010",
         "course_title": "High Integrity Systems Engineering",
-        "course_country": "Australia"
+        "course_country": "Australia",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
         "course_code": "CITS5501",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Western Australia",
         "course_contact": "Arran Stewart",
         "course_concepts": [
             "Alloy"
@@ -582,13 +613,14 @@ var courses =
         ],
         "course_webpage": "http://teaching.csse.uwa.edu.au/units/CITS5501",
         "course_title": "Software Testing and Quality Assurance",
-        "course_country": "Australia"
+        "course_country": "Australia",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
         "course_code": "COMP782",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Macquarie University",
         "course_contact": "Annabelle McIver",
         "course_concepts": [
             "Hoare Logic",
@@ -599,13 +631,14 @@ var courses =
         "course_country": "Australia",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "COMP781",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Macquarie University",
         "course_contact": "Annabelle McIver",
         "course_concepts": [
             "Hoare Logic",
@@ -616,13 +649,14 @@ var courses =
         "course_country": "Australia",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "COMP1600",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Australian National University",
         "course_contact": "Rajeev Gore",
         "course_concepts": [
             "Formal Specification",
@@ -633,13 +667,14 @@ var courses =
         "course_country": "Australia",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "COMP4630",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "Australian National University",
         "course_contact": "Rajeev Gore",
         "course_concepts": [
             "Logics",
@@ -650,13 +685,14 @@ var courses =
         "course_country": "Australia",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "COMP2111",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "University of New South Wales",
         "course_contact": "Kai Engelhardt",
         "course_concepts": [
             "Hoare Logic",
@@ -667,13 +703,14 @@ var courses =
         "course_country": "Australia",
         "course_tools": [
             "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
         ]
     },
     {
         "course_code": "CSSE3100",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Queensland",
         "course_contact": "Graeme Smith",
         "course_concepts": [
             "Hoare Logic",
@@ -685,13 +722,14 @@ var courses =
         ],
         "course_webpage": "https://my.uq.edu.au/programs-courses/course.html?course_code=csse3100",
         "course_title": "Reasoning about Programs",
-        "course_country": "Australia"
+        "course_country": "Australia",
+        "course_year_level": [
+            "Unknown"
+        ]
     },
     {
         "course_code": "CSSE7610",
-        "course_institution": [
-            "Unknown"
-        ],
+        "course_institution": "The University of Queensland",
         "course_contact": "Graeme Smith",
         "course_concepts": [
             "Model Checking"
@@ -701,7 +739,10 @@ var courses =
         ],
         "course_webpage": "https://my.uq.edu.au/programs-courses/course.html?course_code=csse7610",
         "course_title": "Concurrency: Theory and Practice",
-        "course_country": "Australia"
+        "course_country": "Australia",
+        "course_year_level": [
+            "Unknown"
+        ]
     }
 ]
 var concepts = 
