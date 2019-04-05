@@ -111,29 +111,16 @@ def create_list_courses(courses_repo, fme_github_key):
     return courses
 
 
-# TODO: UNIFY THE FOLLOWING 3 FUNCTIONS INTO ONE THAT RECEIVES THE KEY
-def list_of_concepts(list_courses):
-    """ Given a list of courses (as dictionaries), this function
-    returns a sorted list of all the concepts used.
+def list_by_key(list_courses, key):
+    """ Given a list of courses (as dictionaries) and a key, this 
+    function returns a sorted list of all the 'keys' used.
     """
     concepts = []
     for course in list_courses:
-        concepts.extend(course['course_concepts'])
+        concepts.extend(course[key])
     concepts = list(set(concepts))
     concepts.sort()
     return concepts
-
-
-def list_of_tools(list_courses):
-    """ Given a list of courses (as dictionaries), this function
-    returns a sorted list of all the tools used.
-    """
-    tools = []
-    for course in list_courses:
-        tools.extend(course['course_tools'])
-    tools = list(set(tools))
-    tools.sort()
-    return tools
 
 
 def list_of_countries(list_courses):
@@ -154,10 +141,10 @@ def list_of_countries(list_courses):
 courses = create_list_courses(courses_repo, fme_github_key)
 courses_json = json.dumps(courses, indent=4)
 
-concepts = list_of_concepts(courses)
+concepts = list_by_key(courses, 'course_concepts')
 concepts_json = json.dumps(concepts, indent=4)
 
-tools = list_of_tools(courses)
+tools = list_by_key(courses, 'course_tools')
 tools_json = json.dumps(tools, indent=4)
 
 countries = list_of_countries(courses)
