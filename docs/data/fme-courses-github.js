@@ -1,6 +1,27 @@
 var courses = 
 [
     {
+        "course_institution": "Instituto Superior T\u00e9cnico (University of Lisbon)",
+        "course_contact": "Jo\u00e3o F. Ferreira",
+        "course_concepts": [
+            "Denotational Semantics",
+            "Operational Semantics",
+            "Axiomatic Semantics",
+            "Hoare Logic",
+            "Separation Logic",
+            "Interactive Theorem Proving",
+            "Functional Programming"
+        ],
+        "course_tools": [
+            "Coq",
+            "Haskell"
+        ],
+        "course_webpage": "https://fenix.tecnico.ulisboa.pt/disciplinas/LPro26/2018-2019/2-semestre",
+        "course_year_level": "MSc",
+        "course_title": "Programming Languages",
+        "course_country": "Portugal"
+    },
+    {
         "course_institution": "Open University of the Netherlands",
         "course_contact": "Stef Joosten",
         "course_concepts": [
@@ -755,6 +776,7 @@ var concepts =
     "Applied Formal Methods",
     "Automated Reasoning",
     "Automation",
+    "Axiomatic Semantics",
     "Axiomatisation",
     "Behavioural Equivalences",
     "Behavioural Modelling",
@@ -764,6 +786,7 @@ var concepts =
     "Deductive Program Verification",
     "Deductive Proof",
     "Deductive Verification",
+    "Denotational Semantics",
     "Distributed Systems",
     "Formal Specification",
     "Formal Specification And Verification Of Code",
@@ -771,10 +794,12 @@ var concepts =
     "Formal Specification Using Z",
     "Formal Specifications",
     "Frama-C",
+    "Functional Programming",
     "Handling Data Structures",
     "Handling Procedure Calls Modularly",
     "Hoare Logic",
     "Induction",
+    "Interactive Theorem Proving",
     "Ioco",
     "Jml",
     "Labelled Transition Systems",
@@ -793,6 +818,7 @@ var concepts =
     "Model-Oriented (Z) & Process-Oriented (Csp) Specification & Refinement",
     "Modeling",
     "Mu-Calculus",
+    "Operational Semantics",
     "Operational Semantics; Axiomatic Semantics; Deductive Verification; Certified Compilation; Formalization In Coq; Program Analysis With Frama-C",
     "Ormal Models",
     "Process Algebra",
@@ -843,6 +869,7 @@ var tools =
     "Frama-C",
     "Frama-C (Wp Plug-In) And Why3",
     "Gnu Prolog",
+    "Haskell",
     "Key",
     "Many",
     "Maude",
