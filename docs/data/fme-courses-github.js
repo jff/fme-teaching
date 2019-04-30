@@ -1,6 +1,169 @@
 var courses = 
 [
     {
+        "course_code": "11511",
+        "course_institution": "University of Beira Interior",
+        "course_contact": "Sim\u00e3o Melo de Sousa (desousa@di.ubi.pt)",
+        "course_concepts": [
+            "Type Theory",
+            "Proof Assistant",
+            "Hoare Logic",
+            "Deductive Verification Tools"
+        ],
+        "course_tools": [
+            "Coq",
+            "Why3"
+        ],
+        "course_webpage": "http://www.di.ubi.pt/~desousa/PC/pc.html",
+        "course_year_level": "PhD",
+        "course_title": "Certified Programming",
+        "course_country": "Portugal"
+    },
+    {
+        "course_code": "06-28201",
+        "course_institution": "University of Birmingham",
+        "course_contact": "David Parker",
+        "course_concepts": [
+            "Modal Logic",
+            "Temporal Logic",
+            "Model Checking",
+            "Real-Time And Probabilistic Model Checking"
+        ],
+        "course_webpage": "https://www.cs.bham.ac.uk/internal/modules/2018/06-28201",
+        "course_title": "Computer Aided Verification",
+        "course_country": "UK",
+        "course_tools": [
+            "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
+        ]
+    },
+    {
+        "course_code": "COS6020-B",
+        "course_institution": "University of Bradford",
+        "course_contact": "???",
+        "course_concepts": [
+            "Classical Logic",
+            "Formal Specification",
+            "Model Checking",
+            "Reactive Systems",
+            "Program Verification"
+        ],
+        "course_webpage": "https://www.bradford.ac.uk/repos/modules/2020-21/cos6020-b.php",
+        "course_title": "Software Verification",
+        "course_country": "UK",
+        "course_tools": [
+            "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
+        ]
+    },
+    {
+        "course_code": "CM30226",
+        "course_institution": "Bath",
+        "course_contact": "???",
+        "course_concepts": [
+            "Category Theory",
+            "Simply Typed Lambda Calculus",
+            "Natural Deduction",
+            "Curry-Howard Isomorphism"
+        ],
+        "course_tools": [
+            "Unknown"
+        ],
+        "course_webpage": "http://www.bath.ac.uk/catalogues/2011-2012/cm/CM30226.htm",
+        "course_title": "Logic and Semantics of Programming Languages ",
+        "course_country": "UK",
+        "course_year_level": [
+            "Unknown"
+        ]
+    },
+    {
+        "course_code": "COMS30009",
+        "course_institution": "University of Bristol",
+        "course_contact": "Steven Ramsay",
+        "course_concepts": [
+            "Lambda Calculus",
+            "Programming Languages",
+            "Type Systems"
+        ],
+        "course_webpage": "https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMS30009",
+        "course_title": "Types and Lambda Calculus",
+        "course_country": "UK",
+        "course_tools": [
+            "Unknown"
+        ],
+        "course_year_level": [
+            "Unknown"
+        ]
+    },
+    {
+        "course_code": "COM3028",
+        "course_institution": "University of Surrey",
+        "course_contact": "Brijesh Dongol (b.dongol@surrey.ac.uk)",
+        "course_concepts": [
+            "Modal Logic",
+            "Temporal Logic (Ltl",
+            "Ctl)",
+            "Model Checking",
+            "Hoare Logic"
+        ],
+        "course_tools": [
+            "Nusmv",
+            "Dafny",
+            "Mcmas"
+        ],
+        "course_webpage": "https://catalogue.surrey.ac.uk/2018-9/module/COM3028",
+        "course_title": "Systems Verification",
+        "course_country": "UK",
+        "course_year_level": [
+            "Unknown"
+        ]
+    },
+    {
+        "": "TI5002",
+        "course_institution": "THM Technische Hochschule Mittelhessen",
+        "course_contact": "Burkhardt Renz",
+        "course_concepts": [
+            "Propositional Logic",
+            "Sat-Solving",
+            "Predicate Logic",
+            "Linear Temporal Logic",
+            "Natural Deduction"
+        ],
+        "course_tools": [
+            "Logic Workbench (Https://Github.Com/Esb-Lwb/Lwb)",
+            "Alloy",
+            "Spin",
+            "Jape"
+        ],
+        "course_webpage": "https://esb-dev.github.io/lfm.html",
+        "course_title": "Logic and Formal Methods (Logik und formale Methoden)",
+        "course_country": "Germany",
+        "course_year_level": [
+            "Unknown"
+        ]
+    },
+    {
+        "course_institution": "Canvas MOOC Platform",
+        "course_contact": "Mohammad Reza Mousavi",
+        "course_concepts": [
+            "Formal Verification",
+            "Model Checking",
+            "Process Algebra",
+            "Behavioural Equivalences"
+        ],
+        "course_tools": [
+            "Mcrl2 (Www.Mcrl2.Org)"
+        ],
+        "course_webpage": "https://www.canvas.net/browse/halmstad/courses/system-validation, https://ocw.tudelft.nl/courses/system-validation",
+        "course_year_level": "MSc",
+        "course_title": "System Validation",
+        "course_country": "UK"
+    },
+    {
         "course_institution": "Instituto Superior T\u00e9cnico (University of Lisbon)",
         "course_contact": "Jo\u00e3o F. Ferreira",
         "course_concepts": [
@@ -53,11 +216,9 @@ var courses =
             "Mcrl2"
         ],
         "course_webpage": "https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=45569",
+        "course_year_level": "MSc",
         "course_title": "System Validation",
-        "course_country": "Netherlands",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Netherlands"
     },
     {
         "course_institution": "Eindhoven University of Technology",
@@ -95,11 +256,9 @@ var courses =
             "No Tools"
         ],
         "course_webpage": "https://canvas.tue.nl/courses/8829",
+        "course_year_level": "MSc",
         "course_title": "Process Algebra",
-        "course_country": "Netherlands",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Netherlands"
     },
     {
         "course_institution": "Eindhoven University of Technology",
@@ -115,11 +274,9 @@ var courses =
             "Mcrl2 (Www.Mcrl2.Org)"
         ],
         "course_webpage": "https://mitpress.mit.edu/books/modeling-and-analysis-communicating-systems",
+        "course_year_level": "MSc",
         "course_title": "System Validation",
-        "course_country": "Netherlands",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Netherlands"
     },
     {
         "course_institution": "University of Minho",
@@ -148,11 +305,9 @@ var courses =
             "Rapl"
         ],
         "course_webpage": "http://mei.di.uminho.pt/?q=en/mfes-en",
+        "course_year_level": "MSc",
         "course_title": "Formal Methods for Software Engineering (25 ECTS)",
-        "course_country": "Portugal",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Portugal"
     },
     {
         "course_institution": "Bauhaus-Universit\u00e4t Weimar",
@@ -187,11 +342,9 @@ var courses =
             "Use"
         ],
         "course_webpage": "https://oas.sci.uma.es:8443/pls/apex/f?p=101:1:4313528363359996::NO::INICIO_LOV_TIPO_ESTUDIO,INICIO_LOV_CURSO_ACAD,INICIO_LOV_CENTROS,INICIO_LOV_TITULACIONES,INICIO_LOV_CICLOS,INICIO_LOV_CURSOS,INICIO_BUSCAR:3,2018,306,5103,1,-1,404",
+        "course_year_level": "4",
         "course_title": "Formal Methods in Software Engineering",
-        "course_country": "Spain",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Spain"
     },
     {
         "course_institution": "University of Oslo",
@@ -203,11 +356,9 @@ var courses =
             "Maude"
         ],
         "course_webpage": "https://www.uio.no/studier/emner/matnat/ifi/INF3232/index-eng.html",
+        "course_year_level": "2,3",
         "course_title": "Logic for system analysis",
-        "course_country": "Norway",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Norway"
     },
     {
         "course_code": "TDA567",
@@ -280,11 +431,9 @@ var courses =
             "Coq",
             "Why3"
         ],
+        "course_year_level": "3",
         "course_title": "Modeling and Programming",
         "course_country": "France",
-        "course_year_level": [
-            "Unknown"
-        ],
         "course_webpage": "#"
     },
     {
@@ -305,11 +454,9 @@ var courses =
             "Minisat",
             "Z3"
         ],
+        "course_year_level": "MSc",
         "course_title": "Certified Software",
         "course_country": "France",
-        "course_year_level": [
-            "Unknown"
-        ],
         "course_webpage": "#"
     },
     {
@@ -324,11 +471,9 @@ var courses =
             "Frama-C"
         ],
         "course_webpage": "http://frederic.loulergue.eu/teaching/cs451.pdf",
+        "course_year_level": "4, MSc, PhD",
         "course_title": "Mechanized Reasoning about Programs",
-        "course_country": "US",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "US"
     },
     {
         "course_institution": "University of Beira Interior",
@@ -343,12 +488,10 @@ var courses =
             "Why3",
             "Frama-C"
         ],
-        "course_webpage": "http://www.di.ubi.pt/~desousa/CF/comfia.html",
+        "course_webpage": "http://www.di.ubi.pt/~desousa/CF/comfia.html, http://www.di.ubi.pt/~desousa/SFS/sfs.html",
+        "course_year_level": "MSc, PhD",
         "course_title": "Computa\u00e7\u00e3o Fi\u00e1vel (Reliable Programming)",
-        "course_country": "Portugal",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Portugal"
     },
     {
         "course_institution": "Universit\u00e9 Paris-Diderot",
@@ -366,11 +509,9 @@ var courses =
             "Frama-C"
         ],
         "course_webpage": "http://www.lri.fr/~marche/MPRI-2-36-1",
+        "course_year_level": "MSc",
         "course_title": "Proofs of Programs",
-        "course_country": "France",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "France"
     },
     {
         "course_institution": "Carnegie Mellon University",
@@ -386,11 +527,9 @@ var courses =
             "Coq"
         ],
         "course_webpage": "http://www.cs.cmu.edu/~15811",
+        "course_year_level": "PhD",
         "course_title": "Verifying Complex Systems",
-        "course_country": "US",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "US"
     },
     {
         "course_institution": "Politecnico di Milano",
@@ -439,11 +578,9 @@ var courses =
             "Many"
         ],
         "course_webpage": "http://hecs.imag.fr",
+        "course_year_level": "MSc",
         "course_title": "HECS (High-Confidence Embedded and Cyberphysical Systems)",
-        "course_country": "France",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "France"
     },
     {
         "course_code": "COM00012H",
@@ -456,11 +593,9 @@ var courses =
             "Czt; Fdr4"
         ],
         "course_webpage": "(Behind a firewall)",
+        "course_year_level": "3",
         "course_title": "Programming: Correctness by Construction",
-        "course_country": "UK",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "UK"
     },
     {
         "course_institution": "University of Limerick",
@@ -616,11 +751,9 @@ var courses =
             "Alloy"
         ],
         "course_webpage": "https://handbook.unimelb.edu.au/2018/subjects/swen90010",
+        "course_year_level": "MSc",
         "course_title": "High Integrity Systems Engineering",
-        "course_country": "Australia",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Australia"
     },
     {
         "course_code": "CITS5501",
@@ -742,11 +875,9 @@ var courses =
             "Key"
         ],
         "course_webpage": "https://my.uq.edu.au/programs-courses/course.html?course_code=csse3100",
+        "course_year_level": "3",
         "course_title": "Reasoning about Programs",
-        "course_country": "Australia",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Australia"
     },
     {
         "course_code": "CSSE7610",
@@ -759,11 +890,9 @@ var courses =
             "Spin"
         ],
         "course_webpage": "https://my.uq.edu.au/programs-courses/course.html?course_code=csse7610",
+        "course_year_level": "MSc",
         "course_title": "Concurrency: Theory and Practice",
-        "course_country": "Australia",
-        "course_year_level": [
-            "Unknown"
-        ]
+        "course_country": "Australia"
     }
 ]
 var concepts = 
@@ -781,11 +910,16 @@ var concepts =
     "Behavioural Equivalences",
     "Behavioural Modelling",
     "Calculational Design",
+    "Category Theory",
+    "Classical Logic",
     "Constraint Logic Programming",
+    "Ctl)",
+    "Curry-Howard Isomorphism",
     "Data Refinement",
     "Deductive Program Verification",
     "Deductive Proof",
     "Deductive Verification",
+    "Deductive Verification Tools",
     "Denotational Semantics",
     "Distributed Systems",
     "Formal Specification",
@@ -793,6 +927,7 @@ var concepts =
     "Formal Specification Of Interactive Systems",
     "Formal Specification Using Z",
     "Formal Specifications",
+    "Formal Verification",
     "Frama-C",
     "Functional Programming",
     "Handling Data Structures",
@@ -803,7 +938,9 @@ var concepts =
     "Ioco",
     "Jml",
     "Labelled Transition Systems",
+    "Lambda Calculus",
     "Language Theory",
+    "Linear Temporal Logic",
     "Logic",
     "Logic Programming",
     "Logics",
@@ -811,6 +948,7 @@ var concepts =
     "Logics For Specifying Syteme; Hoare'S Method; Timed Petri Nets",
     "Ltl",
     "Memory Models",
+    "Modal Logic",
     "Modal Logics (Modal Mu-Calculus)",
     "Model Based Testing",
     "Model Checking",
@@ -818,19 +956,28 @@ var concepts =
     "Model-Oriented (Z) & Process-Oriented (Csp) Specification & Refinement",
     "Modeling",
     "Mu-Calculus",
+    "Natural Deduction",
     "Operational Semantics",
     "Operational Semantics; Axiomatic Semantics; Deductive Verification; Certified Compilation; Formalization In Coq; Program Analysis With Frama-C",
     "Ormal Models",
+    "Predicate Logic",
     "Process Algebra",
     "Process Calculus",
     "Program Proof",
     "Program Verification",
+    "Programming Languages",
+    "Proof Assistant",
     "Proof Assistants",
     "Proof Of C Programs",
+    "Propositional Logic",
+    "Reactive Systems",
+    "Real-Time And Probabilistic Model Checking",
     "Reasoning About Processes",
     "Refinement Calculus",
     "Sat",
+    "Sat-Solving",
     "Separation Logic",
+    "Simply Typed Lambda Calculus",
     "Smt",
     "Software Analysis Tools (Weakest Precondition",
     "Software Architecture",
@@ -842,11 +989,15 @@ var concepts =
     "Static Program Analysis",
     "Structural Operational Semantics",
     "Systems",
+    "Temporal Logic",
+    "Temporal Logic (Ltl",
     "The Theory And Practice Of Static Verification With Spark",
     "Theorem Proving",
     "Timed Automata",
     "Tool-Based Testing",
     "Trio (A Metric Temporal Logic For Real-Time Systems). Case Studies.",
+    "Type Systems",
+    "Type Theory",
     "Uml",
     "Uml/Ocl",
     "Unknown",
@@ -870,9 +1021,12 @@ var tools =
     "Frama-C (Wp Plug-In) And Why3",
     "Gnu Prolog",
     "Haskell",
+    "Jape",
     "Key",
+    "Logic Workbench (Https://Github.Com/Esb-Lwb/Lwb)",
     "Many",
     "Maude",
+    "Mcmas",
     "Mcrl2",
     "Mcrl2 (Www.Mcrl2.Org)",
     "Minisat",

@@ -7,15 +7,17 @@ courses_repo = 'luigiapetre/Formal-Methods-Courses'
 
 
 def map_to_keys(field):
+    # Normalize field
+    field = field.lower()
     # The following dictionary maps the keys used in Github issues
     # to the keys that we want to use internally (e.g. in the json data)
-    d = {'Course code, if applicable': 'course_code',
-         'University hosting the course': 'course_institution',
-         'Contact person': 'course_contact',
-         'Concepts taught': 'course_concepts',
-         'Tools used': 'course_tools',
-         'Webpage': 'course_webpage',
-         'Year/Level': 'course_year_level'
+    d = {'course code, if applicable': 'course_code',
+         'university hosting the course': 'course_institution',
+         'contact person': 'course_contact',
+         'concepts taught': 'course_concepts',
+         'tools used': 'course_tools',
+         'webpage': 'course_webpage',
+         'year/level': 'course_year_level'
          }
     if field not in d:
         d[field] = ''
@@ -107,6 +109,7 @@ def create_list_courses(courses_repo, fme_github_key):
             # Remove email address from contact. TODO: confirm
             if 'course_contact' in course:
                 contact = course['course_contact']
+                print(contact)
                 contact = contact.split(',')[0]
                 course['course_contact'] = contact
 
@@ -116,7 +119,7 @@ def create_list_courses(courses_repo, fme_github_key):
 
 
 def list_by_key(list_courses, key):
-    """ Given a list of courses (as dictionaries) and a key, this 
+    """ Given a list of courses (as dictionaries) and a key, this
     function returns a sorted list of all the 'keys' used.
     """
     concepts = []
